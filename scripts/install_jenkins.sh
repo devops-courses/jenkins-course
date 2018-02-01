@@ -17,7 +17,7 @@ add-apt-repository \
    stable"
 apt-get update
 apt-get install docker-ce
-usermod -aG docker ubuntu
+usermod -aG docker jenkins
 
 # run jenkins
 mkdir -p /var/jenkins_home
